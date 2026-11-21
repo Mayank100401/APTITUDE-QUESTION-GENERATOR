@@ -19,24 +19,16 @@ chosen by the student. It helps students practise on demand and teachers prepare
 7. Wrote `generator.py` to join the steps and retry once if the reply cannot be parsed.
 8. Built the Streamlit UI in `app.py`: radio buttons, Submit, score with progress bar, Show/Hide solution
    button, Retry, and JSON/CSV download.
-9. Tested with at least 5 inputs (different topics and difficulties), ran the unit tests, took screenshots.
-10. Pushed the code to GitHub and uploaded the files to my Drive folder.
 
 **Improvement made:** in the first version the model gave the answer letter before the working and sometimes
 the letter did not match the solution. Asking for the solution first and the answer last made them agree.
-(Replace this with your own real observation if it differs.)
-
-## Results
-<img width="1011" height="446" alt="image" src="https://github.com/user-attachments/assets/f0bba345-d800-4e17-b6c7-b8478cfff2f6" />
-
-<img width="624" height="633" alt="image" src="https://github.com/user-attachments/assets/7440f6a9-5943-433c-ba10-c4e397b042ab" />
 
 ## Challenges
 - Model replies sometimes had extra text or ```json fences -> fixed by extracting the JSON in `quiz_parser.py`.
 - Options sometimes started with "A)" -> removed with a regular expression.
 - API rate limits (429) -> show a clear message and wait before retrying.
 - Some generated answers can be wrong -> added a visible warning to verify the questions.
-(Keep only the problems you really faced.)
+
 
 ## Conclusion
 The app generates topic-wise aptitude quizzes with solutions and a score. It sometimes produces wrong answers on
