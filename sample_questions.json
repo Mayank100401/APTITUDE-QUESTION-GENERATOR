@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "question": "What is 20% of 250?",
+      "options": ["40", "50", "60", "45"],
+      "solution": "20% of 250 = (20/100) x 250 = 50.",
+      "answer": "B"
+    },
+    {
+      "question": "A shopkeeper buys a watch for Rs. 400 and sells it at a 20% profit. What is the selling price?",
+      "options": ["Rs. 460", "Rs. 480", "Rs. 500", "Rs. 420"],
+      "solution": "Profit = 20% of 400 = 80. Selling price = 400 + 80 = Rs. 480.",
+      "answer": "B"
+    },
+    {
+      "question": "A can finish a job in 12 days and B can finish it in 24 days. Working together, in how many days will they finish it?",
+      "options": ["10 days", "6 days", "8 days", "9 days"],
+      "solution": "Work per day together = 1/12 + 1/24 = 3/24 = 1/8. So they finish in 8 days.",
+      "answer": "C"
+    },
+    {
+      "question": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+      "options": ["36", "40", "44", "42"],
+      "solution": "Differences are 4, 6, 8, 10, so the next difference is 12. Next term = 30 + 12 = 42.",
+      "answer": "D"
+    },
+    {
+      "question": "Pointing to a man, a woman said, \"His mother is the only daughter of my mother.\" How is the woman related to the man?",
+      "options": ["Mother", "Sister", "Aunt", "Grandmother"],
+      "solution": "The only daughter of the woman's mother is the woman herself. So the man's mother is the woman, i.e. she is his mother.",
+      "answer": "A"
+    },
+    {
+      "question": "What is the simple interest on Rs. 5000 at 8% per annum for 3 years?",
+      "options": ["Rs. 1100", "Rs. 1400", "Rs. 1200", "Rs. 1500"],
+      "solution": "SI = (P x R x T)/100 = (5000 x 8 x 3)/100 = Rs. 1200.",
+      "answer": "C"
+    }
+  ]
+}
