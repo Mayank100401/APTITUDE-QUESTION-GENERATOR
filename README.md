@@ -22,18 +22,14 @@ chosen by the student. It helps students practise on demand and teachers prepare
 9. Tested with at least 5 inputs (different topics and difficulties), ran the unit tests, took screenshots.
 10. Pushed the code to GitHub and uploaded the files to my Drive folder.
 
-## Prompt used
-> Create {n} multiple-choice aptitude questions. Category / Topic / Difficulty ... Each question has exactly 4
-> options and exactly ONE correct option ... Write the step-by-step "solution" FIRST, work the problem out
-> carefully, and only then give the "answer" letter ... Return JSON in exactly this shape: {"questions": [...]}
-
 **Improvement made:** in the first version the model gave the answer letter before the working and sometimes
 the letter did not match the solution. Asking for the solution first and the answer last made them agree.
 (Replace this with your own real observation if it differs.)
 
 ## Results
-Insert 1-2 screenshots: one sample input (e.g. Time and Work, Medium, 5 questions) and the generated quiz with
-the solution shown.
+<img width="1011" height="446" alt="image" src="https://github.com/user-attachments/assets/f0bba345-d800-4e17-b6c7-b8478cfff2f6" />
+
+<img width="624" height="633" alt="image" src="https://github.com/user-attachments/assets/7440f6a9-5943-433c-ba10-c4e397b042ab" />
 
 ## Challenges
 - Model replies sometimes had extra text or ```json fences -> fixed by extracting the JSON in `quiz_parser.py`.
